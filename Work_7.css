@@ -1,0 +1,84 @@
+/*
+* @Author: ll
+* @Date:   2019-12-11 12:52:41
+* @Last Modified by:   ll
+* @Last Modified time: 2019-12-11 21:04:29
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#top{
+	height: 20px;
+	background: #ccc;
+}
+#pic1{
+	padding-left: 250px;
+	text-align: center;
+}
+#scrollobj{
+	width: 950px;
+	font: 13px 微软雅黑;
+	color: red;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#botton{
+	width: 1200px;
+	height: 360px;
+	margin-top: 10px;
+	margin-left: 130px;
+	position: relative;
+	overflow: hidden;
+}
+.picBox{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.pic img{
+	width: 1200px;
+	height: 360px;
+	overflow: hidden;
+	float: left;
+}
+.vane{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: #f00;
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+#tag{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+	list-style: none;
+}
+li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	font: 14px 微软雅黑;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.tag .select{
+	background: red;
+}
